@@ -1,0 +1,39 @@
+1.Download jdk1.8 from this link 
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+2. Updating the PATH Environment Variable:--
+
+To set the PATH variable permanently, add the full path of the jdk1.8.0_111\bin directory to the PATH variable. Typically, this full path looks something like C:\Program Files\Java\jdk1.8.0_111\bin.
+Set the PATH variable as follows on Microsoft Windows:
+
+Click Start, then Control Panel, then System.
+
+Click Advanced, then Environment Variables.
+
+Add the location of the bin folder of the JDK installation to the PATH variable in System Variables. The following is a typical value for the PATH variable:
+
+C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_111\bin
+
+3. Add a new entry of JAVA_HOME=c:\Program Files\Java\jdk1.8.0_111 in the environment variables.
+
+4. Install Maven from this link
+
+http://maven.apache.org/download.cgi
+
+5. Check the path where maven is installed and extract it. Copy the path of the bin directory
+
+C:\apache-maven-3.3.9\bin
+
+6. Go to Environment variable and append it in the PATH  for example 
+
+Adding to PATH: Add the unpacked distribution’s bin directory to your user PATH environment variable by opening up the system properties (WinKey + Pause), selecting the “Advanced” tab, and the “Environment Variables” button, then adding or selecting the PATH variable in the user variables with the value C:\Program Files\apache-maven-3.3.9\bin at the end.
+
+7. Open a new command prompt (Winkey + R then type cmd) and run mvn -v to verify the installation and java -version
+
+8. Install git from this link
+
+https://git-scm.com/download/win
+
+
+
+
