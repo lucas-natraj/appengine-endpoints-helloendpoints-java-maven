@@ -3,7 +3,7 @@ appengine-endpoints-helloendpoints-java-maven
 
 Set up instruction prior to running the project
 
-1.Download jdk1.8 from this link 
+1.Download jdk1.8 from this link
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 2. Updating the PATH Environment Variable:--
@@ -29,9 +29,9 @@ http://maven.apache.org/download.cgi
 
 C:\apache-maven-3.3.9\bin
 
-6. Go to Environment variable and append it in the PATH  for example 
+6. Go to Environment variable and append it in the PATH  for example
 
-Adding to PATH: Add the unpacked distribution’s bin directory to your user PATH environment variable by opening up the system properties (WinKey + Pause), selecting the “Advanced” tab, and the “Environment Variables” button, then adding or selecting the PATH variable in the user variables with the value C:\Program Files\apache-maven-3.3.9\bin at the end.
+Adding to PATH: Add the unpacked distributionï¿½s bin directory to your user PATH environment variable by opening up the system properties (WinKey + Pause), selecting the ï¿½Advancedï¿½ tab, and the ï¿½Environment Variablesï¿½ button, then adding or selecting the PATH variable in the user variables with the value C:\Program Files\apache-maven-3.3.9\bin at the end.
 
 7. Open a new command prompt (Winkey + R then type cmd) and run mvn -v to verify the installation and java -version
 
@@ -77,18 +77,22 @@ Note the client ID that is generated. This is the client ID you need to use in y
 
 
 ## Setup Instructions for the project
-1. Update the value of `application` in `appengine-web.xml` to the app ID you
-   have registered in the App Engine admin console and would like to use to host
-   your instance of this sample.
-1. Optional step: These sub steps are not required but will enable the "Authenticated
+1. Update the value of `application` in `appengine-web.xml` to you project name.
+2. Optional step: These sub steps are not required but will enable the "Authenticated
 Greeting" functionality.
    1. Update the values in [src/main/java/com/example/helloendpoints/Constants.java](src/main/java/com/example/helloendpoints/Constants.java) to reflect the web client ID you have registered in the
 [Credentials on Developers Console for OAuth 2.0 client IDs][6].
     1. Update the value of `google.devrel.samples.helloendpoints.CLIENT_ID` in
 [src/main/webapp/js/base.js](src/main/webapp/js/base.js) to reflect the web client ID you have registered in the
 [Credentials on Developers Console for OAuth 2.0 client IDs][6].
-1. `mvn clean install`
-1. Run the application with `mvn appengine:devserver`, and ensure it's running
-   by visiting your local server's address (by default [localhost:8080][5].)
-1. Deploy your application to Google App Engine with `mvn appengine:update`
 
+Running the project :--
+1. `mvn clean install`
+2. Run the application with `mvn appengine:devserver`, and ensure it's running
+   by visiting your local server's address (by default [localhost:8080][5].)
+3. Deploy your application to Google App Engine with `mvn appengine:update`
+    https://your_project_id.appspot.com
+
+4. Test the authenticated version
+
+ https://your-project-id.appspot.com/_ah/api/explorer

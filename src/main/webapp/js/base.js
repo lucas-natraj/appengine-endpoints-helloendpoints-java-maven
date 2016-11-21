@@ -22,7 +22,7 @@ google.devrel.samples.hello = google.devrel.samples.hello || {};
  * Client ID of the application (from the APIs Console).
  * @type {string}
  */
-google.devrel.samples.hello.CLIENT_ID =
+google.devrel.samples.hello.CLIENT_ID ='651447380795-m9gm0efd7jnb5bn4vui06gkh4l0qq021.apps.googleusercontent.com';
     '';
 
 /**
