@@ -1,4 +1,4 @@
-1.Download jdk1.8 from this link 
+1.Download jdk1.8 from this link
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 2. Updating the PATH Environment Variable:--
@@ -34,10 +34,12 @@ Adding to PATH: Add the unpacked distribution�s bin directory to your user PAT
 
 https://git-scm.com/download/win
 
+
 9 Install Cloud SDK
 
 https://cloud.google.com/sdk/downloads
 
+Please go to line number where it says "Download the Cloud SDK installer" and follow the instructions.
 After the installation do
 
 gcloud auth login
