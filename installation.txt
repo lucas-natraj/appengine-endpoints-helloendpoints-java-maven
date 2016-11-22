@@ -1,9 +1,9 @@
-1.Download jdk1.8 from this link
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+1.Download jdk1.8 version 71 from this link
+http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html#jdk-8u71-oth-JPR
 
 2. Updating the PATH Environment Variable:--
 
-To set the PATH variable permanently, add the full path of the jdk1.8.0_111\bin directory to the PATH variable. Typically, this full path looks something like C:\Program Files\Java\jdk1.8.0_111\bin.
+To set the PATH variable permanently, add the full path of the jdk1.8.0_71\bin directory to the PATH variable. Typically, this full path looks something like C:\Program Files\Java\jdk1.8.0_71\bin.
 Set the PATH variable as follows on Microsoft Windows:
 
 Click Start, then Control Panel, then System.
@@ -12,9 +12,9 @@ Click Advanced, then Environment Variables.
 
 Add the location of the bin folder of the JDK installation to the PATH variable in System Variables. The following is a typical value for the PATH variable:
 
-C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_111\bin
+C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_71\bin
 
-3. Add a new entry of JAVA_HOME=c:\Program Files\Java\jdk1.8.0_111 in the environment variables.
+3. Add a new entry of JAVA_HOME=c:\Program Files\Java\jdk1.8.0_71 in the environment variables.
 
 4. Install Maven from this link
 
