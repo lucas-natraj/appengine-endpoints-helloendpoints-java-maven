@@ -34,7 +34,6 @@ Adding to PATH: Add the unpacked distribution�s bin directory to your user PAT
 
 https://git-scm.com/download/win
 
-
 9 Install Cloud SDK
 
 https://cloud.google.com/sdk/downloads
@@ -47,3 +46,8 @@ gcloud auth login
 PLease check the project you are authenticated with. To change the project
 
 gcloud config set project PROJECT_ID
+
+
+10. Install Intellij community edition.
+
+https://www.jetbrains.com/idea/download/
