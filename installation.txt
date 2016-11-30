@@ -38,7 +38,18 @@ https://git-scm.com/download/win
 
 https://cloud.google.com/sdk/downloads
 
-Please go to line number where it says "Download the Cloud SDK installer" and follow the instructions.
+For Windows please go to Interactive installer and  click Windows  link and follow the instructions:--
+
+Download the Cloud SDK installer. The installer is signed by Google Inc.
+Launch the installer and follow the prompts. If Python 2.7 is not installed on your system, make sure the option to install Bundled Python is checked.
+After installation has completed, accept the following options:
+Start Cloud SDK Shell
+Run gcloud init
+The installer starts a terminal window and runs the gcloud init command.
+
+The default installation does not include the App Engine extensions required to deploy an application using gcloud commands. These components can be installed using the Cloud SDK component manager.
+
+
 After the installation do
 
 gcloud auth login
